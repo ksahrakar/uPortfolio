@@ -1,0 +1,158 @@
+.headerSpace{
+    width:100%;
+    max-width:960px;
+    margin:0 auto;
+    display:flex;
+    padding:0;
+    background-color: slategray;
+    font-family: 'Nova Mono', monospace;
+}
+
+body {
+    background-image: url("assets/images/textured_paper.png") no-repeat fixed center;
+    margin:0;
+    position:relative;
+}
+
+.menuitems{
+    height:35px;
+    min-width:200px;
+    }
+
+ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.right{
+    flex: 0 0 80px;
+    text-align:bottom;
+    font-family: 'Nova Mono', monospace;
+    color:black;
+    background-color: slategrey;
+}
+.right:hover {
+    background-color: rgb(187, 197, 207);
+}
+.right:visited {
+    color:rgb(62, 73, 83);
+}
+
+.left {
+    flex: 1 0 200px;
+}
+.header {
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+li a {
+    text-decoration:none;
+    display:block;
+    padding:5px;
+}
+
+#logo {
+    font-size:30px;
+    padding-left:8px;
+}
+
+.footer {
+    height:35px;
+    margin: 0 auto;
+    background: slategrey;
+    max-width:960px;
+    display:flex;
+    text-align: left;
+    clear:both;
+}
+
+.ftrItems {
+    display:block;
+    flex:1 0 400px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align:bottom;
+}
+
+#sig{
+    font-family: 'Nova Mono', monospace;
+    max-width:200px;
+}
+
+.contentDiv, .aboutMe {
+    max-width: 960px;
+    margin:5px auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.paras {
+    display:block;
+    padding:5px;
+}
+
+p {
+    font-size:20px;
+    display:block;
+    text-align: justify;
+    text-justify: newspaper;
+    margin:0 0 5px 0;
+}
+
+.aboutMe{
+    float: left;
+}
+
+button{
+    margin-bottom:10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: slategray;
+    border:none;
+    font-size:20px;
+}
+
+button:hover{
+    background-color: lightgray;
+    cursor:pointer;
+}
+
+.projectList{
+    float:left;
+    display:block;
+    max-width:960px;
+    height:auto;
+}
+
+.itemBox{
+    position:relative;
+    margin: 5px;
+    float:left;
+    border: 1px solid black;
+}
+
+.label{
+    background-color: lightslategray;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    width:100%;
+    bottom:10px;
+}
+
+.clearfix::after{
+    clear:both;
+}
+
+a:visited{
+    color:black;
+}
+
+img:hover{
+    cursor:pointer;
+}
+
+.aboutMe>img{
+    float:left;
+}
