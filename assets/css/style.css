@@ -103,7 +103,7 @@ p {
     float: left;
 }
 
-button{
+#sButton{
     margin-bottom:10px;
     padding: 5px 15px;
     border-radius: 5px;
@@ -113,7 +113,7 @@ button{
     font-size:20px;
 }
 
-button:hover{
+#sButton:hover{
     background-color: lightgray;
     cursor:pointer;
 }
@@ -148,6 +148,9 @@ button:hover{
 a:visited{
     color:black;
 }
+a:link{
+    color: black;
+}
 
 img:hover{
     cursor:pointer;
@@ -155,4 +158,13 @@ img:hover{
 
 .aboutMe>img{
     float:left;
+}
+
+#msg{
+    height:200px;
+    width:400px;
+    font-size: 16px;
+}
+form{
+    margin-left: 5px;
 }

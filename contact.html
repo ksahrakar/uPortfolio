@@ -33,15 +33,17 @@
     <div class="contentDiv">
         <h2>Contact</h2>
         <hr>
-        <p class="paras2">Name</p>
-        <textarea cols="70" rows="1" placeholder="John Smith"></textarea>
-        <p class="paras2">Email</p>
-        <textarea cols="70" rows="1" placeholder="yourname@yourdomain.com"></textarea>
-        <p class="paras2">Message</p>
-        <textarea cols="100" rows="15" placeholder="Your message to me ..."></textarea>
-        <br>
-        <br>
-        <button>Submit</button>     
+        <form class="gform" action="https://script.google.com/macros/s/AKfycbwGGKjb28kX4fvweozOszUR7hKnSItAtDNYxVk/exec" method="post">
+            <p class="paras2">Name</p>
+            <input type="text" name="name" size="35" placeholder="John Smith"></textarea>
+            <p class="paras2">Email</p>
+            <input type="text" name="email" size="35" placeholder="yourname@yourdomain.com"></textarea>
+            <p class="paras2">Message</p>
+            <textarea type="text" name="message" id="msg" placeholder="Your message to me ..."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="E-mail me" id="sButton">
+        </form>     
     </div>
 <!-- End of all Content Info -->
 
